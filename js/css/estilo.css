@@ -1,0 +1,20 @@
+/* estilos.css */
+
+#lienzo {
+    /* 1. Color de fondo gris claro (ajustado a tu preferencia) */
+    background-color: #f07979da; 
+    
+    /* 2. Orillas redondeadas del lienzo */
+    border-radius: 15px;
+    
+    /* 3. Sombra (Efecto de elevación) */
+    /* Parámetros: desplazamiento-x, desplazamiento-y, desenfoque, color */
+    box-shadow: 0px 10px 20px rgba(220, 92, 92, 0.3);
+    
+    /* 4. Borde del lienzo (Opcional, ahora más sutil) */
+    border: 1px solid #000000;
+    
+    /* 5. Centrado y visualización */
+    display: block;
+    margin: 40px auto;
+}
